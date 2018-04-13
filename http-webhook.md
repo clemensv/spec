@@ -68,7 +68,7 @@ This specification does not further constrain the content of the notification,
 and it also does not prescribe the [HTTP target resource][RFC7230-Section-5-1]
 that is used for delivery.
 
-If the delivery target supports and requires [Abuse Protection][#4-abuse-protection],
+If the delivery target supports and requires [Abuse Protection](#4-abuse-protection),
 the delivery request MUST include the `Origin` header. The `Origin` header value
 is a DNS name expression that identifies the sending system.
 
