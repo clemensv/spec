@@ -274,7 +274,7 @@ WebHook-Request-Origin: *
 #### 4.1.1.2. WebHook-Allowed-Rate
 
 The `WebHook-Allowed-Rate` header MUST be returned if the request contained
-teh `WebHook-Request-Rate`, otherwise it SHOULD be returned.
+the `WebHook-Request-Rate`, otherwise it SHOULD be returned.
 
 The header grants permission to send notifications at the specified rate. The
 value is either an asterisk character or the string representation of a
