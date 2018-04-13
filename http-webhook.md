@@ -180,7 +180,7 @@ time or as a "pre-flight" request immediately preceding a delivery. If the
 handshake outcome is that the delivery is denied, the sender MUST NOT deliver
 events to the target.
 
-It is important to understand is that the handshake does not aim to establish
+It is important to understand that the handshake does not aim to establish
 an authentication or authorization context. It only serves to protect the
 sender from being told to a push to a destination that is not expecting the
 traffic. While this specification mandates use of an authorization model, this
