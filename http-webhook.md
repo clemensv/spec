@@ -240,7 +240,7 @@ WebHook-Request-Rate: 120
 
 ### 4.1.2 Validation response
 
-If and only if the delivery target does allow delivery of the events, it MUST
+If, and only if, the delivery target does allow delivery of the events, it MUST
 reply to the request by including the `WebHook-Allowed-Origin` and
 `WebHook-Allowed-Rate` headers.
 
